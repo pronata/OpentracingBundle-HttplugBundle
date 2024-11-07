@@ -18,7 +18,7 @@
   "require": {
     "php": "^8.2",
     "opentracing/opentracing": "^1.0.1",
-    "auxmoney/opentracing-bundle-core": "^v1.0",
+    "auxmoney/opentracing-bundle-core": "dev-master",
     "php-http/httplug-bundle": "^1.32"
   },
   "require-dev": {
@@ -69,6 +69,12 @@
   "config": {
     "allow-plugins": {
       "php-http/discovery": true
+    }
+  },
+  "repositories": {
+    "core-php-7": {
+      "type": "vcs",
+      "url": "https://github.com/pronata/OpentracingBundle-core.git"
     }
   }
 }
